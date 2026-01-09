@@ -1,3 +1,13 @@
 .Topic {
-    
+  margin: 2rem 0;
+  h4 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--clr-grey-300);
+  }
 }

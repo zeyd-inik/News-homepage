@@ -28,6 +28,18 @@
     }
   }
   aside {
-    margin-bottom: 4rem;
+    margin-bottom: 4rem 0;
+    background-color: var(--clr-navy-950);
+    color: var(--clr-grey-200);
+    padding: 1.3438rem 1.2813rem;
+    h5 {
+      font-size: 2rem;
+      font-family: 900;
+      color: var(--clr-gold);
+    }
+    hr {
+      border: 1px solid var(--clr-navy-600);
+      margin: 1rem 0;
+    }
   }
 }

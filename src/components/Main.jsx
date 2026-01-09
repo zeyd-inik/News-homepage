@@ -29,15 +29,17 @@ export default function Main() {
       <aside>
         <h5>New</h5>
 
-        {data.map((item) => {
+        {data.map((item, index) => {
           const { description, title } = item;
-
+          const isLast = index === data.length - 1;
           return (
-            <Topic
-              index={crypto.randomUUID()}
-              description={description}
-              title={title}
-            />
+            <div key={crypto.randomUUID()}>
+              <Topic
+                title={title}
+                description={description}
+              />
+              {!isLast && <hr />}
+            </div>
           );
         })}
       </aside>
