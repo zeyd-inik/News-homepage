@@ -1,0 +1,32 @@
+/* Google Fonts -- Weights: 400, 700, 800 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+:root {
+  /* MEDIA QUERIES */
+  --mobile: width <= 375px;
+  --tablet: 375px < width < 1440px;
+  --desktop: width >= 1440px;
+
+  /* COLORS */
+
+  /* primary */
+  --clr-gold: hsl(35, 77%, 62%);
+  --clr-red: hsl(5, 85%, 63%);
+  /* neutral */
+  --clr-grey-200: hsl(0, 0%, 85%);
+  --clr-grey-300: hsl(233, 8%, 79%);
+
+  --clr-navy-600: hsl(236, 13%, 42%);
+  --clr-navy-950: hsl(240, 100%, 5%);
+
+  /* SPACING */
+  --spacing-100: 8px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-800: 64px;
+  --spacing-1100: 88px;
+}

@@ -1,0 +1,12 @@
+.Nav {
+  display: flex;
+  color: wheat;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  .logo {
+    width: 44.98px;
+    height: 28px;
+    display: inline-block;
+  }
+}

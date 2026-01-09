@@ -1,0 +1,33 @@
+.Main {
+  display: grid;
+  .img_container {
+    margin-bottom: 1.5rem;
+  }
+  section {
+    margin-bottom: 4rem;
+    h1 {
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 40px;
+    }
+    div {
+      padding: 1.5rem 0;
+      p {
+        font-size: 0.9375rem;
+        font-weight: 400;
+        padding: 1.5rem 0;
+      }
+      button {
+        padding: 0.75rem 2.0625rem;
+        background-color: var(--clr-red);
+        color: var(--clr-navy-950);
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 0.875rem;
+      }
+    }
+  }
+  aside {
+    margin-bottom: 4rem;
+  }
+}

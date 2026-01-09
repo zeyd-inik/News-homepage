@@ -1,0 +1,10 @@
+@import './styles/normalize.css';
+@import './styles/variables.css';
+@import './styles/utils.css';
+
+body {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ }
