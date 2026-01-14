@@ -7,5 +7,13 @@
 		"out": true // set this to false to include "out" folder in search results
 	},
 	// Turn off tsc task auto detection since we have the necessary tasks as npm scripts
-	"typescript.tsc.autoDetect": "off"
+	"typescript.tsc.autoDetect": "off",
+
+	/* --- COPILOT / INLINE SUGGEST MANUEL MOD --- */
+	// Workspace seviyesinde inline önerileri kapatıyoruz; ihtiyaç olunca kısayol ile tetikleyebilirsiniz.
+	"github.copilot.editor.enableAutoCompletions": false,
+	"github.copilot.nextEditSuggestions.enabled": false,
+	"editor.inlineSuggest.enabled": false,
+	"editor.inlineSuggest.showToolbar": "never",
+	"editor.suggestOnTriggerCharacters": false
 }

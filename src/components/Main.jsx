@@ -4,6 +4,7 @@ import './Main.css';
 
 import Topic from './Topic';
 
+import Web3Desktop from '.././assets/images/image-web-3-desktop.jpg';
 import Web3mobile from '.././assets/images/image-web-3-mobile.jpg';
 
 export default function Main() {
@@ -11,10 +12,20 @@ export default function Main() {
     <main className="Main">
       <div className="img_container">
         <img
+          className="mobile"
           src={Web3mobile}
           alt="Web 3 Mobile Illustration"
         />
+        
+
+        <img
+          src={Web3Desktop}
+          alt="Web 3 Desktop Illustration"
+          className="desktop"
+        />
       </div>
+      
+
       <section>
         <h1>The Bright Future of Web 3.0?</h1>
         <div>

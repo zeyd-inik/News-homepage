@@ -9,4 +9,25 @@
     height: 28px;
     display: inline-block;
   }
+  .hamburger {
+    @media (width >= 1024px) {
+      display: none;
+    }
+  }
+  ul {
+    display: flex;
+    font-size: 0.9375rem;
+    gap: 40px;
+    color: var(--clr-navy-600);
+    li {
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: var(--clr-gold);
+        cursor: pointer;
+      }
+    }
+    @media (width < 1024px) {
+      display: none;
+    }
+  }
 }
